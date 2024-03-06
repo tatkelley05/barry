@@ -21,6 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'image_mask = Mystery_Tool.ColorMaskNode:main',
+            'subscriber = Mystery_Tool.subsriber_member_function:main',
         ],
     },
+    
 )
